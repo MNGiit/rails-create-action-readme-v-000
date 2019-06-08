@@ -19,4 +19,5 @@ class PostsController < ApplicationController
     post1.save
     redirect_to post_path(@post)
   end
+  
 end
